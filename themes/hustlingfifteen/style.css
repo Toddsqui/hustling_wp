@@ -1,0 +1,257 @@
+/* overall text for the website */
+html {
+  border: 0px;
+  margin: 0 0 0 0px;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: url("_/images/background.jpg") bottom;
+  background-size: 2789px 1776px;
+  background-position: 59% -5%; }
+
+.header p {
+  margin-top: 0px; }
+
+/* navigation bar */
+.nav {
+  width: 100%;
+  background: url("_/images/gravel.jpg");
+  background-color: black;
+  margin: 0 0 0 0;
+  border: 0px;
+  height: 100%;
+  padding: 0px; }
+
+@media screen and (max-width: 534px) {
+  .nav ul li:nth-child(1) {
+    margin-left: -15px; } }
+@media screen and (max-width: 420px) {
+  .nav ul li:nth-child(1) {
+    margin-left: -35px; } }
+.nav a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: red;
+  text-transform: uppercase; }
+
+.nav a:hover {
+  color: blue; }
+
+ul {
+  margin: 0px;
+  border: 0px;
+  color: white;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  height: 75px; }
+
+ul li {
+  margin: 15px;
+  margin-top: 27px; }
+
+ul li:nth-child(1) {
+  margin-left: 97px; }
+
+.author ul li {
+  color: black; }
+
+/* end of navigation bar */
+/* main wrapper text */
+.wrapper {
+  background-color: white;
+  margin-left: 40px;
+  height: 100%;
+  margin-left: 172px;
+  margin-right: 172px; }
+  @media screen and (max-width: 800px) {
+    .wrapper {
+      margin: 0 0px 0; } }
+
+.imageheader {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  /* for margin 0 auto RESEARCH THIS LATER!!! */ }
+
+.main-content {
+  position: relative;
+  margin-bottom: 100%; }
+
+/*this section is for the posts themselves*/
+.post-box {
+  /*this is the overall box */
+  -webkit-box-shadow: -1px -2px 44px -5px #c7c7c7;
+  -moz-box-shadow: -1px -2px 44px -5px #c7c7c7;
+  box-shadow: -1px -2px 44px -5px #c7c7c7;
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; }
+
+.post-box .post-content {
+  text-align: left; }
+
+.continue-box {
+  /* this is the box that says "continue reading" */
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #C7C7C7;
+  letter-spacing: 1px;
+  border: 2px solid #66CDEC;
+  white-space: nowrap; }
+
+.date {
+  /* this is the date for the different blog posts */
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #C5C5C5;
+  letter-spacing: 1px; }
+
+.line-container {
+  /* this is the line underneath the date */
+  margin-top: -20px;
+  height: 100%;
+  width: 100%;
+  text-align: center; }
+
+.line1 {
+  height: 1px;
+  width: 10px;
+  background-color: #66CDEC;
+  display: inline-block; }
+
+.line2 {
+  height: 1px;
+  width: 25px;
+  background-color: #66CDEC;
+  display: inline-block; }
+
+.post-content {
+  /* this is the actual content of the blog */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: gray;
+  line-height: 2;
+  padding: 20px;
+  margin: 0 4%; }
+
+.float-right {
+  float: right;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #C5C5C5;
+  letter-spacing: 1px;
+  display: inline-block; }
+
+.float-left {
+  float: left;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #C5C5C5;
+  letter-spacing: 1px;
+  display: inline-block; }
+
+/* media queries for the post-footer floats */
+@media screen and (max-width: 935px) {
+  .float-left {
+    font-size: 14px; }
+
+  .float-right {
+    font-size: 14px; } }
+@media screen and (max-width: 885px) {
+  .float-left {
+    font-size: 12px; }
+
+  .float-right {
+    font-size: 12px; } }
+@media screen and (max-width: 834px) {
+  .float-left {
+    font-size: 14px;
+    float: clear; }
+
+  .float-right {
+    font-size: 14px;
+    float: left; } }
+@media screen and (max-width: 800px) {
+  .float-left {
+    float: left; }
+
+  .float-right {
+    float: right; } }
+@media screen and (max-width: 454px) {
+  .float-left {
+    font-size: 12px;
+    float: left; }
+
+  .float-right {
+    float: right; } }
+@media screen and (max-width: 409px) {
+  .float-left {
+    font-size: 10px;
+    float: left; }
+
+  .float-right {
+    float: right; } }
+/* footer text */
+footer p {
+  margin: 0 auto;
+  height: 62px;
+  margin-top: 25px; }
+
+.footer {
+  position: absolute;
+  clear: both;
+  width: 100%;
+  background: url("_/images/gravel.jpg");
+  font-family: 'Arial Narrow Bold', sans-serif;
+  color: white; }
+
+#footerlabel {
+  letter-spacing: 5;
+  margin-left: 400px;
+  margin-top: 20px; }
+
+/* this is the footer at the very bottom of the page and includes media queries */
+@media screen and (max-width: 866px) {
+  #footerlabel {
+    margin-left: 300px; } }
+@media screen and (max-width: 666px) {
+  #footerlabel {
+    margin-left: 100px; } }
+@media screen and (max-width: 466px) {
+  #footerlabel {
+    margin-left: 75px; } }
+@media screen and (max-width: 441px) {
+  #footerlabel {
+    margin-left: 25px; } }
+@media screen and (max-width: 591px) {
+  .float-right {
+    display: block;
+    float: left; } }
+/* end of footer */
+/* this is some clearfix code that I found on the internet */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+/* random last-minute styling */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase; }
+
+.nav a:hover {
+  color: blue; }
