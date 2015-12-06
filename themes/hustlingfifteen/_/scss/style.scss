@@ -336,7 +336,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wpcf7-form-control {
-  background-color: red;
-  text-align: left;
+  background-color: blue;
+  justify: left;
+  height: 30px;
   color: yellow;
+}
+
+.wpcf7-submit {
+  height: 35px;
+  width: 50px;
+  font-size: 15px;
+}
+
+.wpcf7-form {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
+.wpcf7-textarea {
+  height: 150px;
 }
