@@ -23,7 +23,46 @@ git status
 
 <p>So we hardcoded a website, with the help of a designer, and then transferred the contents of the file to a <em>blank theme</em> that we forked from a separate git repository.</p>
 
-<p>The blank theme was loaded onto the WordPress dashboard after we downloaded the wordpress framework from the official website. Using MAMP, we have been able to view the changes after we have made them in atom. </p>
+<p>The blank theme was loaded onto the WordPress dashboard after we downloaded the wordpress framework from the official website. Using MAMP, we have been able to view the changes after we have made them in atom.</p>
+
+<h3 id="stepsformakingadatabaseinbluehost">STEPS FOR MAKING A DATABASE IN BLUEHOST</h3>
+
+<ol>
+<li>Move all files to dynamic server via Transmit</li>
+</ol>
+
+<pre><code class="sj">traveling folder
+</code></pre>
+
+<ol>
+<li><p>Export local database from PhpMyAdmin (pouring the glass of water into the bag)</p></li>
+<li><p>Find and replace the URL in the file (working on the bag)</p></li>
+</ol>
+
+<p><em>we already made the database and the username so the step has been left out.</em></p>
+
+<ol>
+<li><p>Delete all tables in the live database.
+ -PhpMyAdmin
+ -Structure
+ -Check all
+ -Drop the tables</p></li>
+<li><p>Import the database from your desktop to the dynamic server (pouring the bag of water into the glass).</p></li>
+</ol>
+
+<p><em>DON&#8217;T FORGET WP-CONFIG
+If you sync the files from the Transmit FTP program, you will have to manually change the wp-config file on your own.</em></p>
+
+<h3 id="homework:">HOMEWORK:</h3>
+
+<ol>
+<li>Make a change to the site</li>
+<li>Push to the live server</li>
+<li>Change banners and side bars and things like this&#8230;</li>
+<li>Send Cara&#8217;s site design!</li>
+</ol>
+
+<p><em>see steps above</em></p>
 
 </body>
 </html>
