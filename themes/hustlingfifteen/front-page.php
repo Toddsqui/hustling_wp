@@ -46,7 +46,7 @@
 
 
               <!-- END OF BREAKING LINE -->
-                <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="post-content">Welcome to the International Hustling Company, your one stop hub for getting shit done around the world. Unlike those other sites about hustling, this one is all action oriented and hardly any verbose shit. We are gonna do all of this shit together and make it anywhere folks, cuz the economy ain't goin' nowhere. So follow me as I carve a path through Thailand, Laos, and across the Great Silk Road as I fight to survive all sorts of shit and teach you all how to do the same!</p>
                   <br><br>
                 <a href="#" class="continue-box">Continue Reading</a>
                 <br><br><br><br>
